@@ -10,7 +10,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <ToDoCard checkBox="false" noteName="Default Text" />
+        <ToDoCard checkBox="false" taskName="Default text" />
       </main>
     </div>
   );

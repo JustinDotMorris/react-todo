@@ -35,7 +35,8 @@ const ToDoCard = () => {
       </div>
       <div className="ToDoCard__CardContainer">
         <input type="checkbox" name="" id="ToDoCardCheck" />
-        {taskArr && <p>{taskArr}</p>}
+        <p>Sample text</p>
+        {/* {taskArr && <p>{taskArr}</p>} */}
         <div>
           <button className="ToDoCard--delButton">DEL</button>
         </div>
