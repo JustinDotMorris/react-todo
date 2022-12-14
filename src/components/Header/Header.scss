@@ -1,0 +1,13 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.headerContainer--resetButton{
+    background-color: white;
+    height: 2rem;
+    border: solid 2px black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}

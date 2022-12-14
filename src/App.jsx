@@ -1,16 +1,16 @@
 import "./App.scss";
 import "./assets/_reset.scss";
 import ToDoCard from "./components/ToDoCard/ToDoCard";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <h1>My Todos</h1>
-        <button>Reset</button>
+        <Header />
       </header>
       <main>
-        <ToDoCard />
+        <ToDoCard checkBox="false" noteName="Default Text" />
       </main>
     </div>
   );
