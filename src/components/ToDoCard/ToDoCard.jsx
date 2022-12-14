@@ -11,11 +11,11 @@ const ToDoCard = () => {
   console.log(textInput);
 
   //make a task array
-  let taskArr = ["Eat some Bread", "Do some stuff"];
+  const taskArr = ["Eat some Bread", "Do some stuff"];
 
   //on button click add (.push()) items to the array
   const handleAddTask = () => {
-    taskArr = taskArr.push(textInput);
+    taskArr = textInput.push(textInput);
   };
   console.log(taskArr);
 
@@ -35,7 +35,7 @@ const ToDoCard = () => {
       </div>
       <div className="ToDoCard__CardContainer">
         <input type="checkbox" name="" id="ToDoCardCheck" />
-        <p>Sample Text</p>
+        {taskArr && <p>{taskArr}</p>}
         <div>
           <button className="ToDoCard--delButton">DEL</button>
         </div>
