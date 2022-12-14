@@ -10,7 +10,6 @@ function App() {
         <button>Reset</button>
       </header>
       <main>
-        <input type="text" />
         <ToDoCard />
       </main>
     </div>
